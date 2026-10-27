@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#101c36" />
+    <title>الرحمن للنقل الجامعي</title>
+    <meta name="description" content="الرحمن للنقل الجامعي - منصة حجز واشتراكات نقل طلاب الجامعات" />
+    <meta property="og:title" content="الرحمن للنقل الجامعي" />
+    <meta property="og:description" content="الرحمن للنقل الجامعي - منصة حجز واشتراكات نقل طلاب الجامعات" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <script>
+      // Suppress Vite HMR WebSocket connection errors in iframe/preview environment per system guidelines
+      window.addEventListener('unhandledrejection', function(event) {
+        if (
+          event.reason &&
+          (typeof event.reason.message === 'string' &&
+            (event.reason.message.includes('WebSocket') ||
+             event.reason.message.includes('vite:ws') ||
+             event.reason.message.includes('closed without opened'))) ||
+          (typeof event.reason.stack === 'string' && event.reason.stack.includes('@vite/client'))
+        ) {
+          event.preventDefault();
+        }
+      });
+      window.addEventListener('error', function(event) {
+        if (
+          (event.message && event.message.includes('WebSocket')) ||
+          (event.filename && event.filename.includes('@vite/client'))
+        ) {
+          event.preventDefault();
+        }
+      });
+    </script>
+  </head>
+  <body class="font-sans antialiased">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

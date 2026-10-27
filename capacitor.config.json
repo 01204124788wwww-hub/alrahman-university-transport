@@ -1,0 +1,8 @@
+{
+  "appId": "com.alrahman.transport",
+  "appName": "الرحمن للنقل الجامعي",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  }
+}

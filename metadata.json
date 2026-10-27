@@ -1,0 +1,10 @@
+{
+  "name": "Remix الرحمن للنقل الجامعي",
+  "description": "منصة الرحمن للنقل الجامعي - خدمة نقل طلاب الجامعات بمحافظة الدقهلية ودمياط | Al Rahman University Transportation",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
